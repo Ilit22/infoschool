@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HOME-PC</Machine>
+    <WindowsUser>ilya</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>0bee2262-e0f2-4a45-9a0c-568004297443</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\bin\x86\Debug\InfoSchool.exe">
+      <PackagePath>InfoSchool.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\abcd.jpg">
+      <PackagePath>Assets\abcd.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\back.jpg">
+      <PackagePath>Assets\back.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\Barmina.jpg">
+      <PackagePath>Assets\Barmina.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\Bogdanova.jpg">
+      <PackagePath>Assets\Bogdanova.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\Gusarova.jpg">
+      <PackagePath>Assets\Gusarova.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\Kazarikhina.jpg">
+      <PackagePath>Assets\Kazarikhina.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\Khlynina.jpg">
+      <PackagePath>Assets\Khlynina.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\Kuznetsova.jpg">
+      <PackagePath>Assets\Kuznetsova.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\raccoon.jpg">
+      <PackagePath>Assets\raccoon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\Sapotko.jpg">
+      <PackagePath>Assets\Sapotko.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\Бармина ТВ.jpg">
+      <PackagePath>Assets\Бармина ТВ.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\Богданова.jpg">
+      <PackagePath>Assets\Богданова.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\Лобанов.jpg">
+      <PackagePath>Assets\Лобанов.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\енот лапа зел.png">
+      <PackagePath>Assets\енот лапа зел.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\енот лапа.png">
+      <PackagePath>Assets\енот лапа.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\енот-лапа2.png">
+      <PackagePath>Assets\енот-лапа2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\Assets\енот.png">
+      <PackagePath>Assets\енот.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\bin\x86\Debug\InfoSchool.xr.xml">
+      <PackagePath>InfoSchool.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\bin\x86\Debug\Lessons.xbf">
+      <PackagePath>Lessons.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\bin\x86\Debug\MainMenu.xbf">
+      <PackagePath>MainMenu.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\bin\x86\Debug\Register.xbf">
+      <PackagePath>Register.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\bin\x86\Debug\Teacher.xbf">
+      <PackagePath>Teacher.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\bin\x86\Debug\TeacherChoice.xbf">
+      <PackagePath>TeacherChoice.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ilya\documents\visual studio 2015\Projects\InfoSchool\InfoSchool\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
