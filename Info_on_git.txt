@@ -1,0 +1,15 @@
+https://try.github.io/levels/1/challenges/1
+
+git init                          - инициализация .git
+git status                        - Показать статус
+git add octocat.txt   (git add .) - Добавление файлов в commit
+git commit -m "Name commit"       - Создание commit
+git log                           - Показать лог
+git remote add origin https://github.com/Ilit22/infoschool.git - Подключиться к определенному проекту
+git push -u origin master         - Добавить на сервер файлы
+git pull origin master            - Скачать с серва файлы
+git checkout readme.txt           - Переключиться на другую ветку
+
+git checkout -b nameBranch        - Создать новую ветку
+git pull origin nameBranch        - Заливаем изменения на github
+git branch                        - Посмотреть список веток
