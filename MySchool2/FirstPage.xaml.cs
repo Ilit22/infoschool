@@ -101,6 +101,7 @@ namespace MySchool2
                     ds = 59 - ds;
                     if (dm > 59) { dm = dm - 60; dh++; }
                     timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255));
+                    timel_name.Visibility = Visibility.Collapsed;
                 }
                 else if (dh == 8 && dm < 30)
                 {
@@ -109,6 +110,7 @@ namespace MySchool2
                     ds = 59 - ds;
                     if (dm > 59) { dm = dm - 60; dh++; }
                     timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255));
+                    timel_name.Visibility = Visibility.Collapsed;
                 }
                 else if (dh > 15 || (dh == 15 && dm > 15))
                 {
@@ -117,6 +119,7 @@ namespace MySchool2
                     ds = 59 - ds;
                     if (dm > 59) { dm = dm - 60; dh++; }
                     timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255));
+                    timel_name.Visibility = Visibility.Collapsed;
                 }
                 else
                 {
@@ -132,10 +135,12 @@ namespace MySchool2
                             if (k == 1)
                             {
                                 timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
+                                timel_name.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
                             }
                             else if (k == 2)
                             {
                                 timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 92, 193, 10));
+                                timel_name.Foreground = new SolidColorBrush(Color.FromArgb(255, 92, 193, 10));
                             }
                         }
                     }
