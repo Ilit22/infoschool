@@ -1,0 +1,178 @@
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\bin\Debug\App.xbf
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\bin\Debug\MainPage.xbf
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\bin\Debug\MySchool2.xr.xml
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\bin\Debug\MySchool2.exe
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\bin\Debug\MySchool2.pdb
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\bin\Debug\resources.pri
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\bin\Debug\AppxManifest.xml
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\bin\Debug\MySchool2.build.appxrecipe
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\App.g.i.cs
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\App.g.cs
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\MainPage.g.i.cs
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\MainPage.g.cs
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\XamlTypeInfo.g.cs
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\App.xaml
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\App.xbf
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\XamlSaveStateFile.xml
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\MainPage.xaml
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\MainPage.xbf
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\MySchool2.exe
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\MySchool2.pdb
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\priconfig.xml
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\priconfig.xml.intermediate
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\layout.resfiles
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\layout.resfiles.intermediate
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\resources.resfiles
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\resources.resfiles.intermediate
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\pri.resfiles
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\pri.resfiles.intermediate
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\qualifiers.txt
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\qualifiers.txt.intermediate
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\user\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\ProjectArchitectures.txt
+C:\Users\User\documents\visual studio 2015\Projects\MySchool2\MySchool2\bin\Debug\FirstPage.xbf
+C:\Users\User\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\FirstPage.g.i.cs
+C:\Users\User\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\FirstPage.g.cs
+C:\Users\User\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\FirstPage.xaml
+C:\Users\User\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\FirstPage.xbf
+E:\MySchool2\MySchool2\bin\Debug\App.xbf
+E:\MySchool2\MySchool2\bin\Debug\FirstPage.xbf
+E:\MySchool2\MySchool2\bin\Debug\MainPage.xbf
+E:\MySchool2\MySchool2\bin\Debug\MySchool2.xr.xml
+E:\MySchool2\MySchool2\bin\Debug\MySchool2.exe
+E:\MySchool2\MySchool2\bin\Debug\MySchool2.pdb
+E:\MySchool2\MySchool2\bin\Debug\resources.pri
+E:\MySchool2\MySchool2\bin\Debug\AppxManifest.xml
+E:\MySchool2\MySchool2\obj\Debug\App.g.i.cs
+E:\MySchool2\MySchool2\obj\Debug\App.g.cs
+E:\MySchool2\MySchool2\obj\Debug\FirstPage.g.i.cs
+E:\MySchool2\MySchool2\obj\Debug\FirstPage.g.cs
+E:\MySchool2\MySchool2\obj\Debug\MainPage.g.i.cs
+E:\MySchool2\MySchool2\obj\Debug\MainPage.g.cs
+E:\MySchool2\MySchool2\obj\Debug\XamlTypeInfo.g.cs
+E:\MySchool2\MySchool2\obj\Debug\App.xaml
+E:\MySchool2\MySchool2\obj\Debug\FirstPage.xaml
+E:\MySchool2\MySchool2\obj\Debug\MainPage.xaml
+E:\MySchool2\MySchool2\obj\Debug\App.xbf
+E:\MySchool2\MySchool2\obj\Debug\FirstPage.xbf
+E:\MySchool2\MySchool2\obj\Debug\MainPage.xbf
+E:\MySchool2\MySchool2\obj\Debug\XamlSaveStateFile.xml
+E:\MySchool2\MySchool2\obj\Debug\MySchool2.exe
+E:\MySchool2\MySchool2\obj\Debug\MySchool2.pdb
+E:\MySchool2\MySchool2\obj\Debug\priconfig.xml
+E:\MySchool2\MySchool2\obj\Debug\priconfig.xml.intermediate
+E:\MySchool2\MySchool2\obj\Debug\layout.resfiles
+E:\MySchool2\MySchool2\obj\Debug\layout.resfiles.intermediate
+E:\MySchool2\MySchool2\obj\Debug\resources.resfiles
+E:\MySchool2\MySchool2\obj\Debug\resources.resfiles.intermediate
+E:\MySchool2\MySchool2\obj\Debug\pri.resfiles
+E:\MySchool2\MySchool2\obj\Debug\pri.resfiles.intermediate
+E:\MySchool2\MySchool2\obj\Debug\qualifiers.txt
+E:\MySchool2\MySchool2\obj\Debug\qualifiers.txt.intermediate
+E:\MySchool2\MySchool2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\MySchool2\MySchool2\obj\Debug\ProjectArchitectures.txt
+E:\MySchool2\MySchool2\bin\Debug\MySchool2.build.appxrecipe
+D:\Кодим на C#\git\MySchool2\bin\Debug\App.xbf
+D:\Кодим на C#\git\MySchool2\bin\Debug\FirstPage.xbf
+D:\Кодим на C#\git\MySchool2\bin\Debug\MainPage.xbf
+D:\Кодим на C#\git\MySchool2\bin\Debug\MySchool2.xr.xml
+D:\Кодим на C#\git\MySchool2\bin\Debug\MySchool2.exe
+D:\Кодим на C#\git\MySchool2\bin\Debug\MySchool2.pdb
+D:\Кодим на C#\git\MySchool2\bin\Debug\resources.pri
+D:\Кодим на C#\git\MySchool2\bin\Debug\AppxManifest.xml
+D:\Кодим на C#\git\MySchool2\bin\Debug\MySchool2.build.appxrecipe
+D:\Кодим на C#\git\MySchool2\obj\Debug\App.g.i.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\App.g.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\FirstPage.g.i.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\FirstPage.g.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\MainPage.g.i.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\MainPage.g.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\XamlTypeInfo.g.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\App.xaml
+D:\Кодим на C#\git\MySchool2\obj\Debug\MainPage.xaml
+D:\Кодим на C#\git\MySchool2\obj\Debug\App.xbf
+D:\Кодим на C#\git\MySchool2\obj\Debug\MainPage.xbf
+D:\Кодим на C#\git\MySchool2\obj\Debug\XamlSaveStateFile.xml
+D:\Кодим на C#\git\MySchool2\obj\Debug\FirstPage.xaml
+D:\Кодим на C#\git\MySchool2\obj\Debug\FirstPage.xbf
+D:\Кодим на C#\git\MySchool2\obj\Debug\MySchool2.exe
+D:\Кодим на C#\git\MySchool2\obj\Debug\MySchool2.pdb
+D:\Кодим на C#\git\MySchool2\obj\Debug\priconfig.xml
+D:\Кодим на C#\git\MySchool2\obj\Debug\priconfig.xml.intermediate
+D:\Кодим на C#\git\MySchool2\obj\Debug\layout.resfiles
+D:\Кодим на C#\git\MySchool2\obj\Debug\layout.resfiles.intermediate
+D:\Кодим на C#\git\MySchool2\obj\Debug\resources.resfiles
+D:\Кодим на C#\git\MySchool2\obj\Debug\resources.resfiles.intermediate
+D:\Кодим на C#\git\MySchool2\obj\Debug\pri.resfiles
+D:\Кодим на C#\git\MySchool2\obj\Debug\pri.resfiles.intermediate
+D:\Кодим на C#\git\MySchool2\obj\Debug\qualifiers.txt
+D:\Кодим на C#\git\MySchool2\obj\Debug\qualifiers.txt.intermediate
+D:\Кодим на C#\git\MySchool2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Кодим на C#\git\MySchool2\obj\Debug\ProjectArchitectures.txt
+D:\Кодим на C#\git\MySchool2\bin\Debug\TeacherPage.xbf
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherPage.g.i.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherPage.g.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherPage.xaml
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherPage.xbf
+D:\Кодим на C#\git\MySchool2\bin\Debug\lessons.xbf
+D:\Кодим на C#\git\MySchool2\obj\Debug\lessons.g.i.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\lessons.g.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\lessons.xaml
+D:\Кодим на C#\git\MySchool2\obj\Debug\lessons.xbf
+D:\Кодим на C#\git\MySchool2\bin\Debug\TeacherStartPage.xbf
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherStartPage.g.i.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherStartPage.g.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherStartPage.xaml
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherStartPage.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\bin\Debug\App.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\bin\Debug\FirstPage.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\bin\Debug\lessons.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\bin\Debug\MainPage.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\bin\Debug\TeacherPage.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\bin\Debug\TeacherStartPage.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\bin\Debug\MySchool2.xr.xml
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\bin\Debug\MySchool2.exe
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\bin\Debug\MySchool2.pdb
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\bin\Debug\resources.pri
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\bin\Debug\AppxManifest.xml
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\bin\Debug\MySchool2.build.appxrecipe
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\App.g.i.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\App.g.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\FirstPage.g.i.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\FirstPage.g.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\lessons.g.i.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\lessons.g.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\MainPage.g.i.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\MainPage.g.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\TeacherPage.g.i.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\TeacherPage.g.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\TeacherStartPage.g.i.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\TeacherStartPage.g.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\App.xaml
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\FirstPage.xaml
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\lessons.xaml
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\MainPage.xaml
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\TeacherPage.xaml
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\App.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\FirstPage.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\lessons.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\MainPage.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\TeacherPage.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\XamlSaveStateFile.xml
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\TeacherStartPage.xaml
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\TeacherStartPage.xbf
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\MySchool2.exe
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\MySchool2.pdb
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\priconfig.xml
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\priconfig.xml.intermediate
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\layout.resfiles
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\layout.resfiles.intermediate
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\resources.resfiles
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\resources.resfiles.intermediate
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\pri.resfiles
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\pri.resfiles.intermediate
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\qualifiers.txt
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\qualifiers.txt.intermediate
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ilya\Documents\Visual Studio 2015\Projects\nasha_hren-master\MySchool2\obj\Debug\ProjectArchitectures.txt
