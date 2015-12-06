@@ -8,7 +8,6 @@ git log                           - Показать лог
 git remote add origin https://github.com/Ilit22/infoschool.git - Подключиться к определенному проекту
 git push -u origin master         - Добавить на сервер файлы
 git pull origin master            - Скачать с серва файлы
-git checkout readme.txt           - Переключиться на другую ветку
 
 git checkout -b nameBranch        - Создать новую ветку
 git pull origin nameBranch        - Заливаем изменения на github

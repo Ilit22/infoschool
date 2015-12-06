@@ -24,7 +24,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Image x:Name="Lobanov" Source="Assets/Лобанов.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <Image x:Name="Lobanov" Source="Assets/Учителя/Лобанов.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
                 <TextBlock x:Name="TeacherNum1" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Лобанов Дмитрий Александрович" VerticalAlignment="Top" Grid.Column="1" />
             </Grid>
             <Grid x:ConnectionId='2' Height="150"                     Background="#FF0E7D8D">
@@ -33,7 +33,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Image x:Name="Barmina" Source="Assets/Бармина ТВ.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <Image x:Name="Barmina" Source="Assets/Учителя/Бармина ТВ.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
                 <TextBlock x:Name="TeacherNum2" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Бармина Тамара Васильевна" VerticalAlignment="Top" Grid.Column="1" />
 
 
@@ -44,7 +44,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Image x:Name="PhotoNum3" Source="Assets/Богданова.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <Image x:Name="PhotoNum3" Source="Assets/Учителя/Богданова.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
                 <TextBlock x:Name="TeacherNum3" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Богданова Лариса Витальевна" VerticalAlignment="Top" Grid.Column="1" />
 
 
@@ -55,7 +55,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Image x:Name="PhotoNum4" Source="Assets/Gusarova.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <Image x:Name="PhotoNum4" Source="Assets/Учителя/Gusarova.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
                 <TextBlock x:Name="TeacherNum4" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Гусарова Александра Михайловна" VerticalAlignment="Top" Grid.Column="1" />
 
 
@@ -66,7 +66,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Image x:Name="PhotoNum5" Source="Assets/Kazarikhina.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <Image x:Name="PhotoNum5" Source="Assets/Учителя/Kazarikhina.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
                 <TextBlock x:Name="TeacherNum5" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Казарихина Татьяна Пантелеевна" VerticalAlignment="Top" Grid.Column="1" />
 
 
@@ -77,7 +77,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Image x:Name="PhotoNum6" Source="Assets/Khlynina.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <Image x:Name="PhotoNum6" Source="Assets/Учителя/Khlynina.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
                 <TextBlock x:Name="TeacherNum6" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Хлыгина Ильмира Ильдаровна" VerticalAlignment="Top" Grid.Column="1" />
 
 
@@ -88,7 +88,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Image x:Name="PhotoNum7" Source="Assets/Kuznetsova.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <Image x:Name="PhotoNum7" Source="Assets/Учителя/Kuznetsova.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
                 <TextBlock x:Name="TeacherNum7" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Кузнецова Лидия Ивановна" VerticalAlignment="Top" Grid.Column="1" />
 
             </Grid>
@@ -98,7 +98,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Image x:Name="PhotoNum8" Source="Assets/Sapotko.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <Image x:Name="PhotoNum8" Source="Assets/Учителя/Sapotko.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
                 <TextBlock x:Name="TeacherNum8" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Сапотько Надежда Ивановна" VerticalAlignment="Top" Grid.Column="1" />
 
             </Grid>

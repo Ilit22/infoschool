@@ -15,14 +15,18 @@ using Windows.UI.Xaml.Navigation;
 
 // Документацию по шаблону элемента пустой страницы см. по адресу http://go.microsoft.com/fwlink/?LinkID=390556
 
+
+// 18 * 16 = 288
+
+
 namespace InfoSchool
 {
     /// <summary>
     /// Пустая страница, которую можно использовать саму по себе или для перехода внутри фрейма.
     /// </summary>
-    public sealed partial class TeacherChoice : Page
+    public sealed partial class MiniGame : Page
     {
-        public TeacherChoice()
+        public MiniGame()
         {
             this.InitializeComponent();
         }
@@ -36,9 +40,42 @@ namespace InfoSchool
         {
         }
 
-        private void TeacherTap(object sender, TappedRoutedEventArgs e)
+        private void Up_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Teacher));
+            int row = Grid.GetRow(enot) - 1;
+            if (row > 0)
+            {
+                Grid.SetRow(enot, row);
+            }
         }
+
+        private void Left_Click(object sender, RoutedEventArgs e)
+        {
+            int column = Grid.GetColumn(enot) - 1;
+            if (column > 0)
+            {
+                Grid.SetColumn(enot, column);
+            }
+        }
+
+        private void Right_Click(object sender, RoutedEventArgs e)
+        {
+            int column = Grid.GetColumn(enot) + 1;
+            if (column <= 16)
+            {
+                Grid.SetColumn(enot, column);
+            }
+        }
+
+        private void Down_Click(object sender, RoutedEventArgs e)
+        {
+            int row = Grid.GetRow(enot) + 1;
+            if (row <= 16)
+            {
+                Grid.SetRow(enot, row);
+            }
+        }
+
+
     }
 }

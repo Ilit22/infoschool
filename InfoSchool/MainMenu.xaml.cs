@@ -171,10 +171,12 @@ namespace InfoSchool
             }
         }
 
+
         private void teachers_tapped(object sender, TappedRoutedEventArgs e)
         {
             Frame.Navigate(typeof(TeacherChoice));
         }
+
         private void lessons_tapped(object sender, TappedRoutedEventArgs e)
         {
             Frame.Navigate(typeof(Lessons));
@@ -183,6 +185,11 @@ namespace InfoSchool
         private void dishes_Tapped(object sender, TappedRoutedEventArgs e)
         {
             Frame.Navigate(typeof(Eating));
+        }
+        
+        private void minigame_tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MiniGame));
         }
     }
 }

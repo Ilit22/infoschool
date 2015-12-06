@@ -9,139 +9,142 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>0bee2262-e0f2-4a45-9a0c-568004297443</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\bin\Debug\InfoSchool.exe">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\InfoSchool.exe">
       <PackagePath>InfoSchool.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\abcd.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\abcd.jpg">
       <PackagePath>Assets\abcd.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\back.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\back.jpg">
       <PackagePath>Assets\back.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\raccoon.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\raccoon.jpg">
       <PackagePath>Assets\raccoon.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Столовая\Компот.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Столовая\Компот.jpg">
       <PackagePath>Assets\Столовая\Компот.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Столовая\Макароны.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Столовая\Макароны.jpg">
       <PackagePath>Assets\Столовая\Макароны.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Столовая\Пюре.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Столовая\Пюре.jpg">
       <PackagePath>Assets\Столовая\Пюре.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Столовая\Салат.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Столовая\Салат.jpg">
       <PackagePath>Assets\Столовая\Салат.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Столовая\Сосиски.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Столовая\Сосиски.jpg">
       <PackagePath>Assets\Столовая\Сосиски.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Столовая\Чай.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Столовая\Чай.jpg">
       <PackagePath>Assets\Столовая\Чай.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Учителя\Barmina.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Учителя\Barmina.jpg">
       <PackagePath>Assets\Учителя\Barmina.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Учителя\Bogdanova.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Учителя\Bogdanova.jpg">
       <PackagePath>Assets\Учителя\Bogdanova.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Учителя\Gusarova.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Учителя\Gusarova.jpg">
       <PackagePath>Assets\Учителя\Gusarova.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Учителя\Kazarikhina.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Учителя\Kazarikhina.jpg">
       <PackagePath>Assets\Учителя\Kazarikhina.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Учителя\Khlynina.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Учителя\Khlynina.jpg">
       <PackagePath>Assets\Учителя\Khlynina.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Учителя\Kuznetsova.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Учителя\Kuznetsova.jpg">
       <PackagePath>Assets\Учителя\Kuznetsova.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Учителя\Sapotko.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Учителя\Sapotko.jpg">
       <PackagePath>Assets\Учителя\Sapotko.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Учителя\Бармина ТВ.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Учителя\Бармина ТВ.jpg">
       <PackagePath>Assets\Учителя\Бармина ТВ.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Учителя\Богданова.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Учителя\Богданова.jpg">
       <PackagePath>Assets\Учителя\Богданова.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Учителя\Лобанов.jpg">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Учителя\Лобанов.jpg">
       <PackagePath>Assets\Учителя\Лобанов.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\енот лапа зел.png">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\енот лапа зел.png">
       <PackagePath>Assets\енот лапа зел.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\енот лапа.png">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\енот лапа.png">
       <PackagePath>Assets\енот лапа.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\енот-лапа2.png">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\енот-лапа2.png">
       <PackagePath>Assets\енот-лапа2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\Assets\енот.png">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\енот.png">
       <PackagePath>Assets\енот.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\bin\Debug\InfoSchool.xr.xml">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\InfoSchool.xr.xml">
       <PackagePath>InfoSchool.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\bin\Debug\Dish.xbf">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\Dish.xbf">
       <PackagePath>Dish.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\bin\Debug\Eating.xbf">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\Eating.xbf">
       <PackagePath>Eating.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\bin\Debug\Lessons.xbf">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\Lessons.xbf">
       <PackagePath>Lessons.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\bin\Debug\MainMenu.xbf">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\MainMenu.xbf">
       <PackagePath>MainMenu.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\bin\Debug\Register.xbf">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\MiniGame.xbf">
+      <PackagePath>MiniGame.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\Register.xbf">
       <PackagePath>Register.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\bin\Debug\Teacher.xbf">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\Teacher.xbf">
       <PackagePath>Teacher.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\bin\Debug\TeacherChoice.xbf">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\TeacherChoice.xbf">
       <PackagePath>TeacherChoice.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ilya\Documents\Visual Studio 2015\Projects\InfoSchool\InfoSchool\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
