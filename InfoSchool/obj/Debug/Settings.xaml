@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="InfoSchool.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:InfoSchool"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" RequestedTheme="Dark">
+    <Page.Background>
+        <ImageBrush Stretch="Fill" ImageSource="Assets/abcd.jpg"/>
+    </Page.Background>
+
+    <StackPanel Margin="20,10,20,0">
+        <TextBlock Text="Настройки" FontSize="32" TextAlignment="Center" Margin="0,0,0,30" />
+        <Border x:ConnectionId='1' BorderBrush="#FF00FFF3" BorderThickness="3" Padding="4,5" Margin="10,0" Background="#19FFFFFF"                                                                                                                                       >
+            <TextBlock Text="Вернуться к странице выбора: школы, класса, роли(ученик, родитель)" FontSize="18" TextWrapping="Wrap" Foreground="#FF00FFF3" TextAlignment="Center" />
+        </Border>
+    </StackPanel>
+</Page>
+
+<!-- #FF00FFF3   #FFC5FFFC -->
+

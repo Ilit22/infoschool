@@ -5,13 +5,13 @@
     xmlns:local="using:InfoSchool"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" RequestedTheme="Dark">
+    mc:Ignorable="d" RequestedTheme="Dark" Loaded="page_loaded">
     <Page.Background>
         <ImageBrush Stretch="Fill" ImageSource="Assets/abcd.jpg"/>
     </Page.Background>
 
     <ScrollViewer>
-        <StackPanel Margin="30, 0">
+        <StackPanel Margin="20,10,20,0">
             <StackPanel Background="#4C000000" Margin="0,5" Loaded="stackpanel_loaded">
                 <TextBlock x:Name="timel_name" FontSize="26" TextAlignment="Center" Text="До начала урока:" Margin="0,5,0,0" />
                 <TextBlock x:Name="timel" FontSize="60" TextAlignment="Center" Text="00:00" Margin="0,5" Loaded="timel_loaded" />
@@ -23,12 +23,12 @@
                     <ColumnDefinition Width="10"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <StackPanel x:Name="lessons" Background="#4C000000" Grid.Column="0" PointerPressed="back_view" PointerReleased="back_view2" Tapped="lessons_tapped">
-                    <Image Source="Assets/енот.png" Margin="0,0,0,10" />
+                <StackPanel x:Name="lessons" Background="#4C000000" Grid.Column="0" PointerPressed="back_view" PointerReleased="back_view2" Tapped="lessons_tapped" PointerExited="back_view2">
+                    <Image Source="Assets/Главное меню/rasp.png" Margin="10" Height="116" />
                     <TextBlock Text="Расписание" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
                 </StackPanel>
-                <StackPanel x:Name="dishes" Background="#4C000000" Grid.Column="2" PointerPressed="back_view" PointerReleased="back_view2" Tapped="dishes_Tapped">
-                    <Image Source="Assets/енот.png" Margin="0,0,0,10" />
+                <StackPanel x:Name="dishes" Background="#4C000000" Grid.Column="2" PointerPressed="back_view" PointerReleased="back_view2" Tapped="dishes_Tapped" PointerExited="back_view2">
+                    <Image Source="Assets/Главное меню/eat.png" Margin="10" Height="116" />
                     <TextBlock Text="Столовая" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
                 </StackPanel>
             </Grid>
@@ -38,19 +38,30 @@
                     <ColumnDefinition Width="10"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <StackPanel x:Name="teachers" Background="#4C000000" Grid.Column="0" PointerPressed="back_view" PointerReleased="back_view2" Tapped="teachers_tapped">
-                    <Image Source="Assets/енот.png" Margin="0,0,0,10" />
+                <StackPanel x:Name="teachers" Background="#4C000000" Grid.Column="0" PointerPressed="back_view" PointerReleased="back_view2" Tapped="teachers_tapped" PointerExited="back_view2">
+                    <Image Source="Assets/Главное меню/teacher.png" Margin="10" Height="116" />
                     <TextBlock Text="Учителя" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
                 </StackPanel>
-                <StackPanel x:Name="minigame" Background="#4C000000" Grid.Column="2" PointerPressed="back_view" PointerReleased="back_view2" Tapped="minigame_tapped">
-                    <Image Source="Assets/енот.png" Margin="0,0,0,10" />
+                <StackPanel x:Name="minigame" Background="#4C000000" Grid.Column="2" PointerPressed="back_view" PointerReleased="back_view2" Tapped="minigame_tapped" PointerExited="back_view2">
+                    <Image Source="Assets/Главное меню/enot.png" Margin="10" Height="116" />
                     <TextBlock Text="Мини-игра" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
                 </StackPanel>
             </Grid>
-            <StackPanel x:Name="map" Background="#4C000000" Margin="0, 5" Orientation="Horizontal" PointerPressed="back_view" PointerReleased="back_view2">
-                <Image Source="Assets/енот.png" Height="100" Margin="0,5" />
-                <TextBlock FontSize="24" FontStyle="Italic" Margin="15" Text="Карта" VerticalAlignment="Center" />
-            </StackPanel>
+            <Grid Margin="0, 5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel x:Name="map" Background="#4C000000" Grid.Column="0" PointerPressed="back_view" PointerReleased="back_view2" Tapped="map_tapped" PointerExited="back_view2">
+                    <Image Source="Assets/Главное меню/school.jpg" Margin="10" Height="116" />
+                    <TextBlock Text="Карта" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
+                </StackPanel>
+                <StackPanel x:Name="settings" Background="#4C000000" Grid.Column="2" PointerPressed="back_view" PointerReleased="back_view2" Tapped="settings_tapped" PointerExited="back_view2">
+                    <Image Source="Assets/Главное меню/settings.png" Margin="10" Height="116" />
+                    <TextBlock Text="Настройки" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
+                </StackPanel>
+            </Grid>
         </StackPanel>
     </ScrollViewer>
 </Page>

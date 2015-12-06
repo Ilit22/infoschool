@@ -30,6 +30,9 @@
     <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\raccoon.jpg">
       <PackagePath>Assets\raccoon.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Главное меню\school.jpg">
+      <PackagePath>Assets\Главное меню\school.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Столовая\Компот.jpg">
       <PackagePath>Assets\Столовая\Компот.jpg</PackagePath>
     </AppxPackagedFile>
@@ -102,6 +105,21 @@
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Главное меню\eat.png">
+      <PackagePath>Assets\Главное меню\eat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Главное меню\enot.png">
+      <PackagePath>Assets\Главное меню\enot.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Главное меню\rasp.png">
+      <PackagePath>Assets\Главное меню\rasp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Главное меню\settings.png">
+      <PackagePath>Assets\Главное меню\settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\Главное меню\teacher.png">
+      <PackagePath>Assets\Главное меню\teacher.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\Assets\енот лапа зел.png">
       <PackagePath>Assets\енот лапа зел.png</PackagePath>
     </AppxPackagedFile>
@@ -132,11 +150,17 @@
     <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\MainMenu.xbf">
       <PackagePath>MainMenu.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\Map.xbf">
+      <PackagePath>Map.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\MiniGame.xbf">
       <PackagePath>MiniGame.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\Register.xbf">
       <PackagePath>Register.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\Settings.xbf">
+      <PackagePath>Settings.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\Teacher.xbf">
       <PackagePath>Teacher.xbf</PackagePath>

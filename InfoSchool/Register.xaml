@@ -5,15 +5,25 @@
     xmlns:local="using:InfoSchool"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" RequestedTheme="Dark">
+    mc:Ignorable="d" RequestedTheme="Dark" Loaded="page_loaded">
     <Page.Background>
         <ImageBrush Stretch="Fill" ImageSource="Assets/back.jpg"/>
     </Page.Background>
 
     <ScrollViewer>
-        <StackPanel Margin="30,10,30,0">
-            <TextBlock Text="Школа 1747" TextAlignment="Center" VerticalAlignment="Center" FontSize="36" Margin="0,0,0,25"/>
-            <Grid x:Name="classgrid" >
+        <StackPanel Margin="20,10,20,0">
+
+            <ComboBox PlaceholderText="Кто вы?">
+                <ComboBoxItem Tag="student" PointerEntered="i_entered">Ученик</ComboBoxItem>
+                <ComboBoxItem Tag="parent" PointerEntered="i_entered">Родитель</ComboBoxItem>
+            </ComboBox>
+
+            <ComboBox x:Name="entered_school" PlaceholderText="Укажите школу" Visibility="Collapsed">
+                <ComboBoxItem Tag="sch1747" PointerEntered="school_entered">Школа 1747</ComboBoxItem>
+                <ComboBoxItem Tag="another" PointerEntered="school_entered">Другая</ComboBoxItem>
+            </ComboBox>
+
+            <Grid x:Name="classgrid" Visibility="Collapsed" >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
@@ -69,7 +79,7 @@
                 <TextBlock x:Name="tb10" Grid.Column="0" Grid.Row="6" TextWrapping="Wrap" Text="&quot;З&quot;" TextAlignment="Center" VerticalAlignment="Center" FontSize="21.333"/>
             </Grid>
 
-            <Button x:Name="go" Content="Выбери класс" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="24" FontWeight="Normal" Height="65" Margin="0,25" Click="go_Click"/>
+            <Button x:Name="go" Content="Далее" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="24" FontWeight="Normal" Height="65" Margin="0,25" Click="go_Click" Visibility="Collapsed"/>
 
         </StackPanel>
     </ScrollViewer>

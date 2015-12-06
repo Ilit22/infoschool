@@ -30,6 +30,10 @@ namespace InfoSchool
         {
             this.InitializeComponent();
         }
+        private void page_loaded(object sender, RoutedEventArgs e)
+        {
+            Frame.BackStack.Clear();
+        }
 
         /// <summary>
         /// Вызывается перед отображением этой страницы во фрейме.
@@ -49,7 +53,6 @@ namespace InfoSchool
         {
             ((StackPanel)sender).Background = new SolidColorBrush(Color.FromArgb(10, 255, 255, 255));
         }
-
         private void back_view2(object sender, PointerRoutedEventArgs e)
         {
             ((StackPanel)sender).Background = new SolidColorBrush(Color.FromArgb(50, 0, 0, 0));
@@ -186,10 +189,20 @@ namespace InfoSchool
         {
             Frame.Navigate(typeof(Eating));
         }
-        
+
         private void minigame_tapped(object sender, TappedRoutedEventArgs e)
         {
             Frame.Navigate(typeof(MiniGame));
+        }
+
+        private void map_tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Map));
+        }
+
+        private void settings_tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Settings));
         }
     }
 }

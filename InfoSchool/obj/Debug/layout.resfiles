@@ -7,6 +7,12 @@ Assets\SplashScreen.scale-240.png
 Assets\Square71x71Logo.scale-240.png
 Assets\StoreLogo.scale-240.png
 Assets\WideLogo.scale-240.png
+Assets\Главное меню\eat.png
+Assets\Главное меню\enot.png
+Assets\Главное меню\rasp.png
+Assets\Главное меню\school.jpg
+Assets\Главное меню\settings.png
+Assets\Главное меню\teacher.png
 Assets\енот лапа зел.png
 Assets\енот лапа.png
 Assets\енот.png
@@ -33,7 +39,9 @@ Eating.xbf
 InfoSchool.xr.xml
 Lessons.xbf
 MainMenu.xbf
+Map.xbf
 MiniGame.xbf
 Register.xbf
+Settings.xbf
 Teacher.xbf
 TeacherChoice.xbf

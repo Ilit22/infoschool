@@ -5,14 +5,12 @@
     xmlns:local="using:InfoSchool"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    mc:Ignorable="d" RequestedTheme="Dark">
+    <Page.Background>
+        <ImageBrush Stretch="Fill" ImageSource="Assets/abcd.jpg"/>
+    </Page.Background>
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+    <StackPanel Margin="20,10,20,0">
 
         <Grid x:Name="mainGrid" Height="306" Width="306" VerticalAlignment="Top" HorizontalAlignment="Center">
             <Grid.RowDefinitions>
@@ -78,19 +76,20 @@
 
         </Grid>
 
-        <StackPanel Grid.Row="1">
-            <Button x:ConnectionId='1' VerticalAlignment="Stretch" Content="↑" HorizontalAlignment="Center" Height="85" Width="85" MinWidth="85" Grid.RowSpan="2"                  />
-            <Grid HorizontalAlignment="Center" Width="300" Margin="50,0" Grid.RowSpan="2">
+        <StackPanel Margin="0,30,0,0">
+            <Button x:ConnectionId='1' VerticalAlignment="Stretch" Content="↑" HorizontalAlignment="Center" Height="80" Width="70" MinWidth="70" Grid.RowSpan="2"                  />
+            <Grid HorizontalAlignment="Center" Width="300" Grid.RowSpan="2">
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button x:ConnectionId='3' Grid.Column="0" Content="←" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,0" Height="85" Width="85" MinWidth="85"                    />
-                <Button x:ConnectionId='4' Grid.Column="1" Content="→" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,0" Height="85" Width="85" MinWidth="85"                     />
+                <Button x:ConnectionId='3' Grid.Column="0" Content="←" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,0" Height="80" Width="70" MinWidth="70"                    />
+                <Button x:ConnectionId='4' Grid.Column="2" Content="→" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,0" Height="80" Width="70" MinWidth="70"                     />
             </Grid>
-            <Button x:ConnectionId='2' VerticalAlignment="Stretch" Content="↓" HorizontalAlignment="Center" Height="85" Width="85" MinWidth="85" Grid.RowSpan="2"                    />
+            <Button x:ConnectionId='2' VerticalAlignment="Stretch" Content="↓" HorizontalAlignment="Center" Height="80" Width="70" MinWidth="70" Grid.RowSpan="2"                    />
         </StackPanel>
-    </Grid>
+    </StackPanel>
 </Page>
 

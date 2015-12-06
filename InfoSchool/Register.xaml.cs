@@ -28,6 +28,11 @@ namespace InfoSchool
         public Register()
         {
             this.InitializeComponent();
+
+        }
+        private void page_loaded(object sender, RoutedEventArgs e)
+        {
+            Frame.BackStack.Clear();
         }
 
         /// <summary>
@@ -37,6 +42,18 @@ namespace InfoSchool
         /// Этот параметр обычно используется для настройки страницы.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+        }
+
+        private void i_entered(object sender, PointerRoutedEventArgs e)
+        {
+            entered_school.Visibility = Visibility.Visible;
+            localSettings.Values["i_is"] = (sender as ComboBoxItem).Tag;
+        }
+
+        private void school_entered(object sender, PointerRoutedEventArgs e)
+        {
+            classgrid.Visibility = Visibility.Visible;
+            localSettings.Values["place_traning"] = (sender as ComboBoxItem).Tag;
         }
 
         private void Changeimg(object sender, TappedRoutedEventArgs e)
@@ -52,7 +69,7 @@ namespace InfoSchool
 
             localSettings.Values["myclass"] = (string)((Image)sender).Tag;
 
-            go.Content = "Далее";
+            go.Visibility = Visibility.Visible;
         }
 
         private void go_Click(object sender, RoutedEventArgs e)

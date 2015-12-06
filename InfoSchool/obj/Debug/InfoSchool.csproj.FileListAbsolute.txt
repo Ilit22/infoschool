@@ -127,3 +127,13 @@ D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\MiniGame.g.i.cs
 D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\MiniGame.g.cs
 D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\MiniGame.xaml
 D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\MiniGame.xbf
+D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\Settings.xbf
+D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\Settings.g.i.cs
+D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\Settings.g.cs
+D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\Settings.xaml
+D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\Settings.xbf
+D:\Илья\GIT\InfoSchool\InfoSchool\bin\Debug\Map.xbf
+D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\Map.g.i.cs
+D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\Map.g.cs
+D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\Map.xaml
+D:\Илья\GIT\InfoSchool\InfoSchool\obj\Debug\Map.xbf
