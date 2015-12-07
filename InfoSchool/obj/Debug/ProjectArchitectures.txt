@@ -1,1 +1,1 @@
-D:\Илья\GIT\InfoSchool\InfoSchool\InfoSchool.csproj;neutral
+D:\GIT\InfoSchool\InfoSchool\InfoSchool.csproj;neutral

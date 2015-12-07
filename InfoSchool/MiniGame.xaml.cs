@@ -26,9 +26,41 @@ namespace InfoSchool
     /// </summary>
     public sealed partial class MiniGame : Page
     {
+        int row = 0, column = 0;
+        int[,] field =
+        {
+            { 0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0 },
+            { 0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0 },
+            { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+            { 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1 },
+            { 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1 },
+            { 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1 },
+            { 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1 },
+            { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+            { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+            { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+            { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+            { 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1 },
+            { 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1 },
+            { 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1 },
+            { 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1 },
+            { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+            { 0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0 },
+            { 0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0 }
+        };
+        
+        public DispatcherTimer my_timer;
+        public string rotation = "stop"; //left, right, up, down
+
+
         public MiniGame()
         {
             this.InitializeComponent();
+
+            my_timer = new DispatcherTimer();
+            my_timer.Tick += TimerOnTick;
+            my_timer.Interval = new TimeSpan(0, 0, 1);
+            my_timer.Start();
         }
 
         /// <summary>
@@ -42,40 +74,81 @@ namespace InfoSchool
 
         private void Up_Click(object sender, RoutedEventArgs e)
         {
-            int row = Grid.GetRow(enot) - 1;
-            if (row > 0)
-            {
-                Grid.SetRow(enot, row);
-            }
+            rotation = "up";
         }
 
         private void Left_Click(object sender, RoutedEventArgs e)
         {
-            int column = Grid.GetColumn(enot) - 1;
-            if (column > 0)
-            {
-                Grid.SetColumn(enot, column);
-            }
+            rotation = "left";
         }
 
         private void Right_Click(object sender, RoutedEventArgs e)
         {
-            int column = Grid.GetColumn(enot) + 1;
-            if (column <= 16)
-            {
-                Grid.SetColumn(enot, column);
-            }
+            rotation = "right";
         }
 
         private void Down_Click(object sender, RoutedEventArgs e)
         {
-            int row = Grid.GetRow(enot) + 1;
-            if (row <= 16)
-            {
+            rotation = "down";
+        }
+
+        private bool checking(int new_row, int new_column) {
+            if (new_row>=0 & new_row<=16 && new_column>= 0 && new_column <= 16
+                && field[new_row, new_column] == 0
+                && field[new_row, new_column+1] == 0
+                && field[new_row+1, new_column] == 0
+                && field[new_row+1, new_column+1] == 0
+            ) {
+                row = new_row;
                 Grid.SetRow(enot, row);
+                column = new_column;
+                Grid.SetColumn(enot, column);
+                return true;
+            }
+            else {
+                return false;
             }
         }
 
+        private void TimerOnTick(object sender, object o)
+        {
+            int new_row = row;
+            int new_column = column;
+            if (rotation == "up")
+            {
+                new_row--;
+            }
+            else if (rotation == "left")
+            {
+                new_column--;
+            }
+            else if (rotation == "right")
+            {
+                new_column++;
+            }
+            else if (rotation == "down")
+            {
+                new_row++;
+            }
+            else {
+                return;
+            }
+
+            if (new_row >= 0 & new_row <= 16 && new_column >= 0 && new_column <= 16
+                && field[new_row, new_column] == 0
+                && field[new_row, new_column + 1] == 0
+                && field[new_row + 1, new_column] == 0
+                && field[new_row + 1, new_column + 1] == 0
+            )
+            {
+                row = new_row;
+                Grid.SetRow(enot, row);
+                column = new_column;
+                Grid.SetColumn(enot, column);
+
+            }
+
+        }
 
     }
 }

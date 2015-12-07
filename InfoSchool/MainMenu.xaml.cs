@@ -140,11 +140,13 @@ namespace InfoSchool
                             {
                                 timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
                                 timel_name.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
+                                timel_name.Text = "До конца урока:";
                             }
                             else if (k == 2)
                             {
                                 timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 92, 193, 10));
                                 timel_name.Foreground = new SolidColorBrush(Color.FromArgb(255, 92, 193, 10));
+                                timel_name.Text = "До начала урока:";
                             }
                             timel_name.Visibility = Visibility.Visible;
                             cab.Visibility = Visibility.Visible;
