@@ -26,6 +26,9 @@ namespace InfoSchool
     public sealed partial class MainMenu : Page
     {
         ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;
+        DispatcherTimer dtimer = new DispatcherTimer();
+        DateTime dt;
+        DateTime dt2;
         public MainMenu()
         {
             this.InitializeComponent();
@@ -58,124 +61,53 @@ namespace InfoSchool
             ((StackPanel)sender).Background = new SolidColorBrush(Color.FromArgb(50, 0, 0, 0));
         }
 
-        private async void timel_loaded(object sender, RoutedEventArgs e)
+        private void timel_loaded(object sender, RoutedEventArgs e)
         {
-
-            while (true)
-            {
-                DateTime dt = DateTime.Now;
-                //timel.Text = dt.ToString("HH:mm:ss");
-                int dh = dt.Hour;
-                int dm = dt.Minute;
-                int ds = dt.Second;
-                int i, k;
-
-                int[,] hms =
-                {
-                {8, 30, 60, 15, 1}, //1 
-                {9, 00, 15, -45, 1}, //1
-                {9, 15, 30, -30, 2},
-                {9, 30, 60, 15, 1}, //2
-                {10, 00, 15, -45, 1}, //2
-                {10, 15, 35, -25, 2},
-                {10, 35, 60, 20, 1}, //3
-                {11, 00, 20, -40, 1}, //3
-                {11, 20, 35, -25, 2},
-                {11, 35, 60, 20, 1}, //4
-                {12, 00, 20, -40, 1}, //4
-                {12, 20, 30, -30, 2},
-                {12, 30, 60, 15, 1}, //5
-                {13, 00, 15, -45, 1}, //5
-                {13, 15, 25, -35, 2},
-                {13, 25, 60, 10, 1}, //6
-                {14, 00, 10, -50, 1}, //6
-                {14, 10, 30, -30, 2},
-                {14, 30, 60, 15, 1}, //7
-                {15, 00, 15, -45, 1} //7
-                };
-
-
-                if (dh < 8)
-                {
-                    dh = 8 - dh;
-                    dm = 59 - dm + 30;
-                    ds = 59 - ds;
-                    if (dm > 59) { dm = dm - 60; dh++; }
-                    timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255));
-                    timel_name.Visibility = Visibility.Collapsed;
-                    cab.Visibility = Visibility.Collapsed;
-                }
-                else if (dh == 8 && dm < 30)
-                {
-                    dh = 0;
-                    dm = 59 - dm + 30;
-                    ds = 59 - ds;
-                    if (dm > 59) { dm = dm - 60; dh++; }
-                    timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255));
-                    timel_name.Visibility = Visibility.Collapsed;
-                    cab.Visibility = Visibility.Collapsed;
-                }
-                else if (dh > 15 || (dh == 15 && dm > 15))
-                {
-                    dh = 23 - dh + 8;
-                    dm = 59 - dm + 30;
-                    ds = 59 - ds;
-                    if (dm > 59) { dm = dm - 60; dh++; }
-                    timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255));
-                    timel_name.Visibility = Visibility.Collapsed;
-                    cab.Visibility = Visibility.Collapsed;
-                }
-                else
-                {
-                    for (i = 0; i < 20; i++)
-                    {
-                        if (dh == hms[i, 0] && dm >= hms[i, 1] && dm < hms[i, 2])
-                        {
-                            dh = 0;
-                            dm = 59 - dm + hms[i, 3];
-                            ds = 59 - ds;
-                            k = hms[i, 4];
-
-                            if (k == 1)
-                            {
-                                timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
-                                timel_name.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
-                                timel_name.Text = "До конца урока:";
-                            }
-                            else if (k == 2)
-                            {
-                                timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 92, 193, 10));
-                                timel_name.Foreground = new SolidColorBrush(Color.FromArgb(255, 92, 193, 10));
-                                timel_name.Text = "До начала урока:";
-                            }
-                            timel_name.Visibility = Visibility.Visible;
-                            cab.Visibility = Visibility.Visible;
-                        }
-                    }
-                }
-
-                string sdh = dh.ToString(), sdm = dm.ToString(), sds = ds.ToString();
-
-                if (ds < 10)
-                {
-                    sds = "0" + ds;
-                }
-
-                if (dm < 10)
-                {
-                    sdm = "0" + dm;
-                }
-
-                if (dh < 10)
-                {
-                    sdh = "0" + dh;
-                }
-
-                timel.Text = sdh + ":" + sdm + ":" + sds;
-                await Task.Delay(1000);
-            }
+            dtimer = new DispatcherTimer();
+            dtimer.Tick += dtimer_tick;
+            dtimer.Interval = new TimeSpan(0, 0, 1);
+            dtimer.Start();
         }
+        void dtimer_tick(object sender, object e)
+        {
+            int res=14;
+            dt = DateTime.Now;
 
+            int[,] hms =
+            {
+                {8, 30, 1}, //1 
+                {9, 15, 2},
+                {9, 30, 1}, //2
+                {10, 15, 2},
+                {10, 35, 1}, //3
+                {11, 20, 2},
+                {11, 35, 1}, //4
+                {12, 20, 2},
+                {12, 30, 1}, //5
+                {13, 15, 2},
+                {13, 25, 1}, //6
+                {14, 10, 2},
+                {14, 30, 1}, //7
+                {15, 15, 2},
+                {24, 00, 2}
+            };
+
+            for (int i = 14; i >= 0; i--)
+            {
+                if (dt.Hour < hms[i, 0] || (dt.Hour == hms[i, 0] && dt.Minute < hms[i, 1]))
+                {
+                    res = i;
+                }
+            }
+            dt2 = new DateTime(dt.Year, dt.Month, dt.Day, hms[res, 0], hms[res, 1], 00);
+            if (res==14) {
+                dt2 = new DateTime(dt2.Ticks + 3060000000);
+            }
+
+
+            var dt3 = new DateTime(dt2.Ticks - dt.Ticks);
+            timel.Text = dt3.ToString("HH:mm:ss");
+        }
 
         private void teachers_tapped(object sender, TappedRoutedEventArgs e)
         {
